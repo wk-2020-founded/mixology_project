@@ -1,0 +1,251 @@
+body, html {
+  margin: 0;
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+body {
+  padding: 80px 0 0;
+}
+h1, h2, h3 {
+  color: #222;
+  margin: 0;
+}
+h2 {
+  margin-bottom: 30px;
+}
+p {
+  margin: 0;
+  color: #222;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+.item_name {
+  font-size: 15px;
+}
+#main-wrapper {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.title-section {
+  margin-bottom: 50px;
+}
+.title-section p {
+    font-size: 12px;
+}
+h1 {
+  font-size: 38px;
+  letter-spacing: 4px;
+}
+.title-accent-line {
+  margin: 30px auto 0;
+  width: 60px;
+  height: 2px;
+  background: #B2822E;
+}
+.container {
+  margin: 50px auto 0;
+  padding: 50px 20px;
+  max-width: 800px;
+  border: 1px solid #222;
+  box-sizing: border-box;
+}
+.confirm_item {
+  margin-bottom: 50px;
+}
+.confirm_item > ul{
+  margin: 0 0 40px;
+  list-style: none;
+  padding-left: 0;
+}
+form p {
+  margin: 20px auto 0;
+}
+.total-price {
+  font-weight: bold;
+  font-size: 26px;
+}
+.form-item {
+  margin-bottom: 30px;
+}
+.form-item:last-of-type {
+  margin-bottom: 0;
+}
+.delivery-section-sm {
+  display: none;
+}
+label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: block;
+}
+label span {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #6B0504;
+}
+.preferred-date {
+  display: flex;
+  justify-content: center;
+}
+.preferred-date div:first-child {
+  margin-right: 30px;
+}
+input[type="text"], input[type="num"], input[type="email"], textarea {
+  padding: 8px 5px;
+  width: 80%;
+  font-size: 15px;
+  border: 1px solid #a7a7a7;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}
+.space {
+    margin-right: 30px;
+}
+.select-btn {
+    overflow: hidden;
+    text-align: center;
+}
+select {
+  padding: 5px 30px 5px 5px;
+	cursor: pointer;
+	text-overflow: ellipsis;
+  border: 1px solid #a7a7a7;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+.select-btn select::-ms-expand {
+  display: none;
+}
+.select-btn.select-wrap {
+	position: relative;
+	background: #ffffff;
+}
+.select-btn.select-wrap::before {
+	position: absolute;
+	top: 48%;
+	right: 8px;
+	width: 0;
+	height: 0;
+	padding: 0;
+  content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #666666;
+	pointer-events: none;
+}
+textarea {
+  height: 200px;
+}
+button {
+  margin-top: 60px;
+  padding: 15px 100px;
+  display: inline-block;
+  background-color: #B2822E;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 2px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  transition: all .3s;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+button:hover {
+  opacity: .8;
+}
+/* // footer css */
+footer {
+    margin-top: 80px;
+    padding: 40px 0 20px;
+    background-color: #222;
+    text-align: center;
+}
+footer p {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 13px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+    border-top: 1px dashed #222;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 28px;  
+  }
+  .description p {
+    font-size: 14px;
+  }
+  .total-price {
+    font-size: 22px;
+  }
+  input[type="text"], input[type="num"], input[type="email"], textarea {
+    width: 100%;
+  }
+  .delivery-section {
+    display: none;
+  }
+  .delivery-section-sm {
+    display: block;
+  }
+  label {
+    font-size: 16px;
+    text-align: left;
+  }
+  .preferred-date div {
+    margin-right: 0 !important;
+}
+  .preferred-date {
+   display: block;
+  }
+  .select-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  .select-btn:first-child {
+    margin-bottom: 10px;
+  }
+  .select-btn span {
+    font-size: 13px;
+  }
+  select {
+    width: 85%;
+  }
+  .form-item {
+    text-align: left;
+  }
+  .form-item:nth-of-type(6n) span {
+    font-size: 14px;
+  }
+  .item_name {
+    font-size: 14px;
+  }
+  button {
+    width: 100%;
+  }
+}
