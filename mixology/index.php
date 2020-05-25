@@ -135,15 +135,26 @@
             </div>
         </div>
 
-        <ul class="slider">
-            <li><img src="img/sencha_tonic.jpg" alt=""></li>
-            <li><img src="img/Gyokuro_Martini.jpg" alt=""></li>
-            <li><img src="img/Gintonic.jpg" alt=""></li>
-            <li><img src="img/God_Father.jpg" alt=""></li>
-            <li><img src="img/Negroni.jpg" alt=""></li>
-            <li><img src="img/Manhattan2.jpg" alt=""></li>
-            <li><img src="img/Pinacolada.jpg" alt=""></li>
-        </ul>
+        <div id="slide_animation">
+          <ul class="auto_slider">
+            <li><img src="img/sencha_tonic.jpg"></li>
+            <li><img src="img/Gyokuro_Martini.jpg"></li>
+            <li><img src="img/Gintonic.jpg"></li>
+            <li><img src="img/God_Father.jpg"></li>
+            <li><img src="img/Negroni.jpg"></li>
+            <li><img src="img/Manhattan2.jpg"></li>
+            <li><img src="img/Pinacolada.jpg"></li>
+          </ul>
+          <ul class="auto_slider">
+            <li><img src="img/sencha_tonic.jpg"></li>
+            <li><img src="img/Gyokuro_Martini.jpg"></li>
+            <li><img src="img/Gintonic.jpg"></li>
+            <li><img src="img/God_Father.jpg"></li>
+            <li><img src="img/Negroni.jpg"></li>
+            <li><img src="img/Manhattan2.jpg"></li>
+            <li><img src="img/Pinacolada.jpg"></li>
+          </ul>
+        </div>
 
     </div>
 
@@ -634,69 +645,6 @@
                         <p class="menu-description">Mixology Chefチームが作るFoodシリーズ。<br>お酒にあうつまみ、Dinnerを彩るパスタソース、ランチで絶大な人気を誇った牛筋のブラックカレーも登場。</p>
                         <div class="product-list">
                             <div class="columns">
-                                <div class="two-column-item">
-                                    <div class="food-slide">
-                                        <div class="change-btn next-btn">
-                                            <div class="slide-arrow">
-                                                <div></div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                        <div class="change-btn prev-btn">
-                                            <div class="slide-arrow">
-                                                <div></div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                        <ul class="food-slides">
-                                            <img src="img/food/snack_set.jpg" alt="">
-                                            <img src="img/food/kakinotane.jpg" alt="">
-                                        </ul>
-                                    </div>
-                                    <div class="two-column-details">
-                                        <h4>ハイボールのお供に！燻製盛り合わせセット</h4>
-                                        <p>燻製マニアがつくる自家製燻製の盛り合わせです。コクのあるスモーキーな味わいがハイボールに寄り添います。<br>
-                                        <br>
-                                        セット内容：ベーコン50g、カマンベール30g、からすみ15g、柿の種200g / 計295g</p>
-                                        <div class="two-column-price">
-                                            <p>￥3,240</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="two-column-item">
-                                    <div class="food-slide">
-                                        <div class="change-btn next-btn">
-                                            <div class="slide-arrow">
-                                                <div></div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                        <div class="change-btn prev-btn">
-                                            <div class="slide-arrow">
-                                                <div></div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                        <ul class="food-slides">
-                                            <img src="img/food/dinner_set.jpg" alt="">
-                                            <img src="img/food/meat_ragout.jpg" alt="">
-                                            <img src="img/food/seafood_pasta.jpg" alt="">
-                                            <img src="img/food/Roasted_beef.jpg" alt="">
-                                            <img src="img/food/hamburg.jpg" alt="">
-                                            <img src="img/food/confit.jpg" alt="">
-                                            <img src="img/food/matcha_brownie.jpg" alt="">
-                                        </ul>
-                                    </div>
-                                    <div class="two-column-details">
-                                        <h4>スペシャルディナーセット</h4>
-                                        <p>自宅でシェフの料理を贅沢に味わうコース仕立てのセットです。2名様用でご用意していますが、ご家族でシェアするなどプチパーティスタイルにもおすすめです！<br>
-                                        <br>
-                                        セット内容：和牛ローストビーフ80g、ミートラグーソース250g、魚介ラグーソース250ｇ、ハンバーグ・マッシュルームカレーソース・ラタトゥイユ添え 計240g×2pc、大山鶏のコンフィ・ソース付 計185g×2pc、抹茶のブラウニー80g / 計1510g</p>
-                                        <div class="two-column-price">
-                                            <p>￥8,640</p>
-                                        </div>
-                                    </div>
-                                </div>
                                 <!-- takeout Food 8set (91~99) -->
                                 <?php for($i = 91; $i < 94; $i++ ): ?>
                                     <div class="two-column-item">

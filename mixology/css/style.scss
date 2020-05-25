@@ -499,6 +499,31 @@ nav ul {
         transform: rotate(40deg);
     }
 }
+#slide_animation {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    .auto_slider {
+        display: flex;
+        &:first-child {
+            animation: loop 80s -40s linear infinite;
+        }
+        &:last-child {
+            animation: loop2 80s linear infinite;
+        }
+        img {
+            width: 15vw;         
+        }
+    }
+}
+@keyframes loop {
+    0% { transform: translateX(100%);}
+    to { transform: translateX(-100%);}
+}
+@keyframes loop2 {
+    0% { transform: translateX(0);}
+    to { transform: translateX(-200%);}
+}
 
 // collaboration-wrapper css
 #collaboration-wrapper {
