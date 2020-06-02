@@ -29,8 +29,8 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
 
     // ヘッダー情報 ＊問い合わせ先のEメールアドレスを記載
     $headers = "MIME-Version: 1.0\n";
-    $headers .= "From: Home Mixology <08122950k.t@gmail.com>\n";
-    $headers .= "Reply-To: Home Mixology  <08122950k.t@gmail.com>\n";
+    $headers .= "From: Home Mixology <mixology.takeout@gmail.com>\n";
+    $headers .= "Reply-To: Home Mixology <mixology.takeout@gmail.com>\n";
 
     // お客様宛メールの件名
     $auto_reply_subject = "お問合わせ完了のお知らせ。";
@@ -62,7 +62,7 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
 
 
     // 運営側宛メール送信の設定 ＊問い合わせメールを受信するEメールアドレス
-    $result2 = mb_send_mail('k.ls.soccer1@gmail.com', $admin_reply_subject, $admin_reply_text, $headers);
+    $result2 = mb_send_mail('mixology.takeout@gmail.com', $admin_reply_subject, $admin_reply_text, $headers);
 
     // ログ出力先
     $logdir = "./log/contact/";

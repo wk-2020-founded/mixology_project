@@ -71,6 +71,7 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
               <p id="total_amount"><span class="total-price">合計金額：￥<span id="amount"></span></span>（税込）</p>
               <input type="hidden" name="total_amount">
               <p style="margin-top: 10px;font-size: 12px; color: #6B0504;">デリバリー商品をご注文のお客様は、別途送料がかかります。</p>
+              <a href="javascript:history.back()" style="margin-top: 30px; text-decoration: underline; color: #1A0DAB; font-size: 13px; display: inline-block;">メニューに戻る</a>
             </div>
 
             <h2>お客様情報</h2>
@@ -149,7 +150,7 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
                   <div class="select-btn select-wrap">
                       <span>曜日：</span>
                       <select name="day">
-                        <option value="選択してください" hidden>選択してください</option>
+                        <option value="" hidden>選択してください</option>
                         <option value="水曜日">水曜日</option>
                         <option value="木曜日">木曜日</option>
                         <option value="金曜日">金曜日</option>
@@ -159,7 +160,7 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
                   <div class="select-btn select-wrap">
                       <span>時間：</span>
                       <select name="hour">
-                        <option value="選択してください" hidden>選択してください</option>
+                        <option value="" hidden>選択してください</option>
                         <option value="12:00">12:00</option>
                         <option value="13:00">13:00</option>
                         <option value="14:00">14:00</option>

@@ -8,7 +8,7 @@
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,33 +33,29 @@
     <!-- Start header -->
     <header>
         <div class="header-left">
-            <a href="https://mixology.co.jp">Mixology Delivery</a>
+            <a href="https://mixology.co.jp/">Mixology Delivery</a>
         </div>
         <div class="header-right">
             <nav>
                 <ul>
-                    <li>
-                        <a href="https://mixology.co.jp/mixology_test-upload/#collaboration-wrapper">Chef Collaboration</a>
+                <li>
+                        <a href="https://mixology.co.jp/">Top</a>
                     </li>
                     <div class="nav-vertical-line"></div>
                     <li>
-                        <a href="https://mixology.co.jp/mixology_test-upload/#step-wrapper">Steps</a>
+                        <a href="https://mixology.co.jp/menu">Menu</a>
                     </li>
                     <div class="nav-vertical-line"></div>
                     <li>
-                        <a href="https://mixology.co.jp/mixology_test-upload/#menu-wrapper">Menu</a>
+                        <a href="https://mixology.co.jp/shopping_guide">Shopping Guide</a>
                     </li>
                     <div class="nav-vertical-line"></div>
                     <li>
-                        <a href="https://mixology.co.jp/mixology_test-upload/shopping_guide">Shopping Guide</a>
+                        <a href="https://mixology.co.jp/company">Company</a>
                     </li>
                     <div class="nav-vertical-line"></div>
                     <li>
-                        <a href="https://mixology.co.jp/mixology_test-upload/contact">Contact</a>
-                    </li>
-                    <div class="nav-vertical-line"></div>
-                    <li>
-                        <a href="https://mixology.co.jp/mixology_test-upload/company_profile">Profile</a>
+                        <a href="https://mixology.co.jp/contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -79,16 +75,14 @@
                 <div class="menus">
                     <div class="menu">
                         <ul>
-                            <li><a href="https://mixology.co.jp">top</a></li>
-                            <li><a href="https://mixology.co.jp/mixology_test-upload/#collaboration-wrapper">Chef Collaboration</a></li>
-                            <li><a href="https://mixology.co.jp/mixology_test-upload/#step-wrapper">Steps</a></li>
-                            <li><a href="https://mixology.co.jp.#menu-wrapper">Menu</a></li>
-                            <li class="menu-each"><a href="https://mixology.co.jp/mixology_test-upload/#delivery-menu">—　Delivery Menu　—</a></li>
-                            <li class="menu-each"><a href="https://mixology.co.jp/mixology_test-upload/#takeout-menu">—　Takeout Menu　—</a></li>
-                            <li class="menu-each"><a href="https://mixology.co.jp/mixology_test-upload/#collaboration-menu">—　Collaboration Menu　—</a></li>
-                            <li><a href="https://mixology.co.jp/mixology_test-upload/shopping_guide">Shopping Guide</a></li>
-                            <li><a href="https://mixology.co.jp/mixology_test-upload/contact">Contact</a></li>
-                            <li><a href="https://mixology.co.jp/mixology_test-upload/company_profile">Profile</a></li>
+                            <li><a href="https://mixology.co.jp/">top</a></li>
+                            <li><a href="https://mixology.co.jp/menu">Menu</a></li>
+                            <li class="menu-each"><a href="https://mixology.co.jp/menu#delivery-menu">—　Delivery Menu　—</a></li>
+                            <li class="menu-each"><a href="https://mixology.co.jp/menu#takeout-menu">—　Takeout Menu　—</a></li>
+                            <li class="menu-each"><a href="https://mixology.co.jp/menu#collaboration-menu">—　Collaboration Menu　—</a></li>
+                            <li><a href="https://mixology.co.jp/shopping_guide">Shopping Guide</a></li>
+                            <li><a href="https://mixology.co.jp/company">Company</a></li>
+                            <li><a href="https://mixology.co.jp/contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -140,8 +134,8 @@
     </footer>
     <!-- End footer -->
 
-    <script src="js/jQuery-3.4.1.min.js"></script>
-    <script src="js/menu.js"></script>
+    <script src="js/jQuery-3.4.1.min.js" defer></script>
+    <script src="js/menu.js" defer></script>
 
 </body>
 </html>

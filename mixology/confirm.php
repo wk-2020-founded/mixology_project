@@ -46,8 +46,8 @@
 
       // ヘッダー情報 ＊問い合わせ先のEメールアドレスを記載
       $headers = "MIME-Version: 1.0\n";
-      $headers .= "From: Home Mixology <08122950k.t@gmail.com>\n";
-      $headers .= "Reply-To: Home Mixology  <08122950k.t@gmail.com>\n";
+      $headers .= "From: Home Mixology <mixology.takeout@gmail.com>\n";
+      $headers .= "Reply-To: Home Mixology  <mixology.takeout@gmail.com>\n";
 
       // お客様と運営側宛の共通文章
       $reply_text .= "-----お客様情報-----\n";
@@ -88,7 +88,7 @@
       $admin_reply_text .= $reply_text;
 
       // 運営側宛メール送信先
-      $result2 = mb_send_mail('08122950k.t@gmail.com', $admin_reply_subject, $admin_reply_text, $headers);
+      $result2 = mb_send_mail('mixology.takeout@gmail.com', $admin_reply_subject, $admin_reply_text, $headers);
 
       // ログ出力先
       $logdir = "./log/order/";
