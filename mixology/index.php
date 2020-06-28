@@ -170,35 +170,27 @@
                 <div class="collaboration-content">
                     <div class="collaboration-description">
                         <p class="animation-text">Collaboration 2</p>
-                        <h3 class="animation-text">Yoshino Herb Farm × Mixology</h3>
-                        <div class="collaboration-line"></div>
-                        <p class="animation-text">有名レストラン御用達、吉野ハーブファームが作る最高品質のペパーミントがMixologyに届きました！</p>
-                        <p class="animation-text">このミントを使ったMixologyがお勧めするモヒートセットを、おなたのご自宅へお届けします！Collaboration Menuよりデリバリー商品としてご注文いただけます。</p>
-                        <!-- <a class="to-collaboration" href="#collaboration_menu_2">
-                            <span class="animation-btn-text">See the Menu</span>
-                            <span class="to-menu-arrow animation-btn-text"></span>
-                        </a>                             -->
-                    </div>
-                    <div class="img-wrap">
-                        <img src="img/yoshino_herb_farm.jpg" alt="">
-                    </div>
-                </div>
-                <div class="collaboration-content">
-                    <div class="img-wrap">
-                        <img src="img/cacao_hunters.jpg" alt="">
-                    </div>
-                    <div class="collaboration-description">
-                        <p class="animation-text">Collaboration 3</p>
                         <h3 class="animation-text">CACAO HUNTERS × Mixology</h3>
                         <div class="collaboration-line"></div>
                         <p class="animation-text">世界15カ国のカカオ生産国を旅してきたカカオハンター小方真弓と、コーヒーの世界に従事してきたカルロス・ベラスコが、2013年12月にコロンビアで立ち上げた「CACAO HUNTERS」。</p>
                         <p class="animation-text">今回はカカオハンターズの大人気商品カカオニブスナックがペアリングセットで登場します！限定商品なのでお早めにご注文ください。</p>
-                        <!-- <a class="to-collaboration" href="#collaboration_menu_3">
-                            <span class="animation-btn-text">See the Menu</span>
-                            <span class="to-menu-arrow animation-btn-text"></span>
-                        </a>                             -->
+                    </div>
+                    <div class="img-wrap">
+                        <img src="img/cacao_hunters.jpg" alt="">
                     </div>
                 </div>
+                <!-- <div class="collaboration-content">
+                    <div class="collaboration-description">
+                        <p class="animation-text">Collaboration 2</p>
+                        <h3 class="animation-text">Yoshino Herb Farm × Mixology</h3>
+                        <div class="collaboration-line"></div>
+                        <p class="animation-text">有名レストラン御用達、吉野ハーブファームが作る最高品質のペパーミントがMixologyに届きました！</p>
+                        <p class="animation-text">このミントを使ったMixologyがお勧めするモヒートセットを、おなたのご自宅へお届けします！Collaboration Menuよりデリバリー商品としてご注文いただけます。</p>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="img/yoshino_herb_farm.jpg" alt="">
+                    </div>
+                </div> -->
             </div>
         </div>
     </div>

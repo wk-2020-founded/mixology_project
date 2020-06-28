@@ -626,56 +626,6 @@
                     </div>
                 </div>
 
-                <div class="collaboration-menu-item" id="collaboration_menu_2">
-                    <!-- <p class="menu-description">吉野ハーブファームのペパーミントがセットになったモヒートセットがデリバリーメニューで登場！<br>最高品質のペパーミントで作るフレッシュなモヒートをお楽しみください！</p> -->
-                    <div class="product-list">
-                        <!-- <div class="collaboration-intro">
-                            <img src="img/yoshino_herb_farm.jpg" alt="">
-                            <div class="collaboration-intro-details">
-                                <div class="collaboration-description">
-                                    <h5 class="sm-text-center">Profile</h5>
-                                    <p class="profile-name">Yoshino Herb Farm</p>
-                                    <div class="collaboration-line"></div>
-                                    <p>千葉県柏市にある「吉野ハーブファーム」さんは、珍しい西洋野菜やハーブを中心に野菜を作っており、全国の有名レストランから依頼が届くミシュランスターご用達の最高のハーブファームです。ビーツやコールラビ、セルリアック、カーボネロなど市場に出回らない珍しい野菜を中心に、年間約300品目の野菜を栽培しています。主に業務用のみの販売なので、一般市場には出回らない貴重なハーブと野菜です！</p>
-                                </div>
-                            </div>
-                        </div> -->
-                        
-                        <div class="collabo-food-item">
-                            <!-- <div class="collaboration-item-line">
-                                <p>Collaboration Menu 1</p>
-                                <span></span>
-                            </div> -->
-                            <h4>—　Yoshino Herb Farm × Mixology　—</h4>
-                            <div class="sm-collabo-title">
-                                <p>Yoshino Herb Farm</p>
-                                <p>×</p>
-                                <p>Mixology</p>
-                            </div>
-                            <div class="collabo-food">
-                                <div class="collabo-food-image">
-                                    <?php foreach($menu_data[102]["src"] as $url): ?>
-                                        <img class="lazyload" data-src="<?= h($url) ?>" alt="">
-                                    <?php endforeach; ?>
-                                </div>
-                                <div class="collabo-food-details">
-                                    <p class="category-d">Delivery</p>
-                                    <h5><?= h(f($menu_data[102]["item_name"]))?></h5>
-                                    <p style="font-size: 14px;"><?= h($menu_data[102]["desc"][0])?><br><br><?= h($menu_data[102]["desc"][1])?></p>
-                                    <div class="collaboration-food-price">
-                                        <p>￥<?= h(f($menu_data[102]["price"]))?></p>
-                                        <div class="select-btn">
-                                            <span class="minus" data-id="<?= h($menu_data[102]["item_name"])?>">−</span>
-                                            <span class="number" id="<?= h($menu_data[102]["item_name"])?>" data-price="<?= h($menu_data[102]["price"])?>">0</span>
-                                            <span class="pulus" data-id="<?= h($menu_data[102]["item_name"])?>">＋</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="collaboration-menu-item" id="collaboration_menu_3">
                     <!-- <p class="menu-description">カカオハンターズの大人気商品カカオニブスナックがペアリングセットで登場！<br>大人気ほうじ茶カクテルのアレンジバージョンとセットでお届けします！</p> -->
                     <div class="product-list">
